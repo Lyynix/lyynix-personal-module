@@ -1,7 +1,7 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "lyynix-personal-module",
+  "title": "Lyynix: Personal Module",
+  "description": "This moduel is made by Lyynix and intended for personal use only.",
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 12,
@@ -20,30 +20,15 @@
       "thumbnail": "modules/lyynix-more-journal-enrichers/assets/thumbs/setup.webp"
     }
   ],
-  "packs": [
-    {
-      "name": "module-introduction",
-      "label": "Module Introduction",
-      "path": "./packs/journals",
-      "type": "JournalEntry"
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "Lyynix: Journals",
-      "sorting": "m",
-      "packs": ["module-introduction"]
-    }
-  ],
   "relationships": {
     "systems": [],
     "requires": []
   },
   "esmodules": [
-    "scripts/init.js"
+    "scripts/lpm.js"
   ],
   "styles": [
-    "styles/module.css"
+    "styles/lpm.css"
   ],
   "languages": [
     {
